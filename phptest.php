@@ -91,7 +91,6 @@ $smalltext='The Coolest website on LAN'
   </p>
   <p style="display:none;" id="hidden-text">This is hidden by default.</p>
 </div>
-  </div>
   <div class="row">
   <?php
   $sql = "SELECT username, email, FROM users";
