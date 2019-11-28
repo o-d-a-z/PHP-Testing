@@ -47,7 +47,9 @@ $smalltext='The Coolest website on LAN'
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<?php
+<script src="js/jq.js"></script>
+<script src="js/scripts.js"></script>
+ <?php
 DEFINE('DB_USERNAME', 'root');
  DEFINE('DB_PASSWORD', 'root');
  DEFINE('DB_HOST', 'localhost');
@@ -107,7 +109,5 @@ $smalltext='The Coolest website on LAN'
   $conn->close();
   ?>
     </div>
-<script src="js/jq.js"></script>
-<script src="js/scripts.js"></script>
 </body>
 </html>
